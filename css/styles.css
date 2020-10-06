@@ -1,0 +1,189 @@
+.top-container {
+  background-color: #ffcef3;
+  position: relative;
+  padding-top: 200px;
+}
+
+body {
+  margin: 0px;
+  /*always check from inspect in chrome for such kind of setting*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+
+  /* we can also check for web safe fonts or we can use CSS fob stack or fonts.google.com */
+}
+
+h1 {
+  margin: 0px;
+  margin-top: 50px;
+  font-family: 'Sacramento', cursive;
+  color: #e23e57;
+  /*line-height: 2;*/
+
+
+  font-size: 5.625rem;   /* 100% is 16 px, so get 90px--  562.5%     %is used to get the dynamic size
+  similarily we can use em (M)  16px=100%=1em   % and em bot areused for dynamic size-->
+  but there is a problem with this dynamic size that is, if we apply font size in the body, it will get inherited,
+  and will add on the size: if in body font-size: 20px,then for the heading it will add on the things, and make
+  the fonts much bigger!
+  So in CSS3, we have the functionality to get rid of this,
+  we can simply add rem  root em  to make the font size inside the bracket as we want */
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #e23e57;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #e23e57;
+}
+.p1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #e23e57;
+  font-weight: 100;
+}
+
+
+
+
+.head1 {
+margin: 0 auto;
+}
+
+.mountain {
+  height: 50%;
+  width: 50%;
+}
+.emoji1 {
+  height: 30%;
+  width: 10%;
+  position: relative;
+
+}
+.emoji2 {
+  text-align: right;
+}
+
+.top-cloud {
+  /* width: 10%;
+  /*Takes 90% width from WebContainer
+  height: 10%;
+  position: absolute;
+  top: 18.75rem;
+  right: 12.5rem; */
+  position: absolute;
+    right: 70px;
+    width: 20%;
+
+}
+
+.bottom-cloud {
+  /* height: 10%;
+  width: 10%;
+  position: absolute;
+    left: 6.25rem;
+    bottom: 9.375rem;*/
+    position: absolute;
+    left: 60px;
+    bottom: 20px;
+    width: 20%;
+}
+.second-image {
+  border-radius: 100px;
+  width: 20%;
+}
+.emoji4 {
+  position: absolute;
+  width: 25%;
+    left: 0px;
+    bottom: 130px;
+}
+.middle-container {
+padding: 20px;
+}
+.bottom-container{
+  background-color: #e23e57;
+  padding-top: 30px;
+    border-bottom-width: 15px;
+    padding-bottom: 20px;
+}
+
+.skill-row1{
+  width: 50%;
+  margin: 0px auto 0px auto;
+  text-align: left;
+  padding-bottom: 10px;  /*(starting from top- right -bottom -left)*/
+}
+.skill-row2{
+  width: 50%;
+  margin: 0px auto 0px auto;
+  text-align: left;  /*(starting from top- right -bottom -left)*/
+}
+.skill3 {
+  line-height: 2;
+  padding-left: 150px
+}
+.skill31 {
+  padding-left: 145px;
+}
+.img1 {
+  width: 15%;
+  float: right;
+}
+.img2 {
+  width: 17%;
+  float: left;
+
+  /* padding-right: 40px; */
+}
+.skills {
+  padding-bottom: 50px;
+}
+.borderclass{
+    border-style: dotted;
+    border-width: 25px 0px 0px 0px;
+    width: 15%;
+    border-color: #40514e;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+p {
+  color: #1e2022;
+  line-height: 2;
+}
+
+.MySkills {
+  padding-top: 20px;
+}
+.footer-link {
+  margin-right: 20px;
+}
+.contact-me {
+  padding-top: 50px;
+      padding-bottom: 50px;
+      position: relative;
+}
+
+.navbar{
+  padding: 1rem;
+  font-weight: bolder;
+  z-index: 3;
+}
+
+.grow {
+transition: all .1s ease-in-out;
+}
+
+.grow:hover {
+transform: scale(1.4);
+}
+}
